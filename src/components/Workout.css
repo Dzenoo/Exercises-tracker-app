@@ -1,0 +1,35 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3em;
+    overflow: hidden;
+}
+
+.menu {
+    width: 600px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 2rem;
+    width: 400px;
+}
+
+.form input {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+}
+
+.form button {
+    padding: 16px;
+    background-color: royalblue;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}

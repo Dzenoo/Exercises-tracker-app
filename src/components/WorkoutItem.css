@@ -1,0 +1,51 @@
+body {
+    background-color: #e0dcdc;
+}
+
+.wrapper_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    max-width: 800px;
+    overflow: hidden;
+    margin-top: 20px;
+    animation: show 0.7s ease;
+    border-radius: 8px;
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+        transform: translateY(60px);
+    }
+
+    100% {
+        opacity: 2;
+        transform: translateY(0);
+    }
+
+}
+
+.text {
+    padding: 20px;
+}
+
+.wrapper_item .text h1 {
+    color: royalblue;
+}
+
+.wrapper_item .text p {
+    font-size: 22px;
+    color: #303030;
+}
+
+.actions button {
+    padding: 1em;
+    border: none;
+    color: #fff;
+    border-radius: 40px;
+    cursor: pointer;
+    background-color: rgb(195, 196, 198);
+    margin-right: 20px;
+}
